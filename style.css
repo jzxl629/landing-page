@@ -1,0 +1,39 @@
+.top {
+    display: flex;
+    flex-direction: column;
+    /*background: #253F63;*/
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-content {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
