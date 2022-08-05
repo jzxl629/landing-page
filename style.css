@@ -1,7 +1,7 @@
 .top {
     display: flex;
     flex-direction: column;
-    /*background: #253F63;*/
+    background: #1F2937;
 }
 
 .header {
@@ -26,14 +26,48 @@ a {
     text-decoration: none;
 }
 
+a,.intro {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.headline {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .top-content {
     display: flex;
     padding: 0 100px;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
+
 
 img {
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
 }
 
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #3883F6;
+    color: #F9FAF8;
+    border: 1px solid #3883F6;
+}
+
+.intro, .headline {
+    margin-bottom: 16px;
+}
+
+.h {
+    max-width: 400px;
+}
