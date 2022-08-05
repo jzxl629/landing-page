@@ -1,3 +1,4 @@
+/* ======================== First Section ====================== */
 .top {
     display: flex;
     flex-direction: column;
@@ -71,3 +72,31 @@ button {
 .h {
     max-width: 400px;
 }
+
+/* ======================== Second Section ====================== */
+.second {
+    text-align: center;
+}
+.houses-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.house {
+    max-width: 200px;
+}
+
+.houses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.house img {
+    width: 200px;
+    height: 210px;
+}
+
